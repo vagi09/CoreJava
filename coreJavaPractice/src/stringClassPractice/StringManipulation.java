@@ -8,6 +8,11 @@ public class StringManipulation {
 		String str1 = "Woods_are_lovely_dark_and_deep";
 		String str2= "I have miles to go before i sleep";
 		String str3= "  Woods Are Lovely Dark And Deep  ";
+		String x="Hello";
+		String y="world";
+		int a = 100;
+		int b = 200;
+		
 		
 
 		System.out.println("Total lenght of the String: " + str.length());
@@ -33,6 +38,13 @@ public class StringManipulation {
 		}
 		
 
+	System.out.println(x+y); //Helloworld	
+	System.out.println(x+y+a+b); //Helloworld100200
+	System.out.println(a+b+x+y); // 300Helloworld
+	System.out.println(x+y+(a+b)); //Helloworld300
+	
+		
+		
 	}
 
 }
